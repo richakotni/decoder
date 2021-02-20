@@ -15,13 +15,11 @@ def caesar_cipher(text, e_or_d, shift = 13):
 
     for c in text:
         if c.isupper():
-            c_unicode = ord(c)
             c_index = ord(c) - ord("A")
             new_index = (c_index + (e_or_d*shift)) % 26
             new_uni = new_index + ord("A")
             decryption += chr(new_uni)
         elif c.islower():
-            c_unicode = ord(c)
             c_index = ord(c) - ord("a")
             new_index = (c_index + (e_or_d*shift)) % 26
             new_uni = new_index + ord("a")
