@@ -82,16 +82,16 @@ st.write(f'You chose {e_or_d}!')
 
 type_selected = st.selectbox("Select your cipher", ["Caesar", "Atbash"])
 
-if type_selected is "Caesar":
+if type_selected == "Caesar":
     
     no_default = st.checkbox("Choose your own Shift Value (Default is 13)", value=False, key=None)
     if no_default:
         n = st.number_input('Number', min_value = 0, max_value = 25)
         text = st.text_input(f'Enter some text to {e_or_d}')
-        if e_or_d is "Decrypt":
+        if e_or_d == "Decrypt":
             decryption = caesar_cipher(text, -1, n)
             st.write(f'{decryption}')
-        elif e_or_d is "Encrypt":
+        elif e_or_d == "Encrypt":
             encryption = caesar_cipher(text, 1, n)
             st.write(f'{encryption}')
     else:
@@ -99,7 +99,7 @@ if type_selected is "Caesar":
         cryption = caesar_cipher(text, -1)
         st.write(f'{cryption}')
         
-elif type_selected is "Atbash":
+elif type_selected == "Atbash":
     text = st.text_input(f'Enter some text to {e_or_d}')
     cryption = atbash_cipher(text)
     st.write(f'{cryption}')
