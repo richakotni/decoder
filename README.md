@@ -1,4 +1,4 @@
-# decoder
+# Ciphers
 This is a Streamlit webapp that encrypts and decrypts ciphers using mainly two ciphers (Atbash and Caesar shifts). However you can customize how much you want to shift by for Caesar decryption. 
 # To run and install this app: 
   
