@@ -2,15 +2,6 @@ import streamlit as st
 
 st.title('Ciphers')
 
-#st.text("Type a number in the box below. This will be your rotation value. If you enter nothiing, it will use a default value of 13.")
-
-#n = st.number_input('Number', min_value = 0, max_value = 25)
-
-#if (n == 0):
-	#n = 13
-
-#st.write(f"{n} + 1 = {n+1}")
-
 def caesar_cipher(text, e_or_d, shift = 13):
     """ Applies the Caeser cipher function on user input.
         parameters:
