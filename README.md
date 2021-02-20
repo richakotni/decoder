@@ -3,6 +3,6 @@ This is a Streamlit webapp that encrypts and decrypts ciphers using mainly two c
 # To run and install this app: 
   
 # After installation:
-Choose whether you want to encrypt or decrypt. Then choose which cipher you want to use and whether you want to customize anything. Now, the fun part. Enter in any text you want to encrypt/decrypt! 
-Try decrypting this with an Atbash decryption: Hgivznorg rh zdvhlnv!
-Try decrypting this with a Caeser decryption with a shift of 16: Y belu Ijhuqcbyj
+Choose whether you want to encrypt or decrypt. Then choose which cipher you want to use and whether you want to customize anything. Now, the fun part. Enter in any text you want to encrypt/decrypt!<br/>
+Try decrypting this with an Atbash decryption: Hgivznorg rh zdvhlnv!<br/>
+Try decrypting this with a Caeser decryption with a shift of 16: Y belu Ijhuqcbyj<br/>
